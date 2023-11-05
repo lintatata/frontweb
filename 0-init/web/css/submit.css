@@ -1,0 +1,81 @@
+/* 表单页CSS文件 */
+header{
+    text-align: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 25px;
+}
+
+main{
+    margin-top: -300px;
+}
+section.form-wrap{
+    display: flex;
+    justify-self: center;
+}
+
+.file-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.file-wrap label{
+    height: 256px;
+    width: 280px;
+    background: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.file-wrap img{
+   
+    height: 236px;
+    width: 260px;
+    object-fit: cover;
+}
+#upload{
+    display: none;
+}
+.input-wrap{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    width: 286px;
+    height: 256px;
+}
+.input-wrap input,textarea{
+    padding-left: 12px;
+    border: none;
+    border-radius: 2.5px;
+    color: #333;
+    font-size: 15px;
+}
+.input-wrap input{
+    height: 44px;
+    margin-bottom: 14px;
+}
+.input-wrap textarea{
+    padding: 8px;
+    height: 140px;
+    resize: none;
+}
+section.btn-wrap{
+    padding: 115px 0 45px;
+
+}
+.btn-wrap button{
+    background: #1677ff;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 24px;
+    width: 374px;
+    height: 63px;
+    border: none;
+    cursor: pointer;
+}
+.btn-wrap button:active{
+    background-color: #0157cf;
+}
